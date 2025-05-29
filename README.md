@@ -86,17 +86,16 @@ Setiap psikolog memiliki jadwal default:
 1. **Clone atau download project ini**
    ```bash
    git clone <repository-url>
-   cd counselling-reservation-system
    ```
 
 2. **Compile semua file Java**
    ```bash
-   javac -d out src/**/*.java src/*.java
+   javac *.java
    ```
 
 3. **Jalankan aplikasi**
    ```bash
-   java -cp out CounsellingReservationSystem
+   java CounsellingReservationSystem
    ```
 
 ### Menggunakan IDE
